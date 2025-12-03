@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
@@ -13,7 +14,145 @@
     <!-- End Javier -->
 
     <!-- Start -->
+    <main>
+        <div class="absolute inset-0 -z-10">
+            <div class="w-full h-full opacity-10 bg-[radial-gradient(circle_at_center,_#ccc_1px,_transparent_1px)] bg-[length:40px_40px]"></div>
+        </div>
 
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 py-20">
+
+            <!-- PRINCIPAL GRID -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+                <div class="space-y-4">
+                <h1 class="text-6xl font-light text-gray-800 leading-tight relative text-10xl font-semibold ">
+                    It’s me
+                    <span class="inline-block align-middle ml-2">
+                        <img src="images/man-1.png" alt="profile" class="w-17 h-17 rounded-full sm=300px sm:hidden">
+                    </span>
+                    <br>
+                    <span class="font-semibold">Arif Iskandar</span>
+                </h1>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="text-gray-700 text-lg leading-relaxed">
+                <p>
+                    I like to code and keep it simple, try something new, and learn more.
+                    I think sharing knowledge is the best practice to improve my skills, 
+                    and I try to do it.
+                </p>
+                <br>
+                <p>
+                    I am currently the Chief Technology Officer at dSociety, 
+                    a startup to help students prepare for their exams.
+                </p>
+            </div>
+
+            </div>
+
+            <!-- CARDS DIV -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
+
+            <!-- CARD 1 -->
+            <div class="bg-white shadow-md rounded-xl p-5 border">
+                <div class="flex items-center gap-3 mb-3">
+                    <img src="images/woman-1.png" class="rounded-full w-17 h-17" />
+                    <div>
+                        <h3 class="font-semibold">Marilyn Siphron</h3>
+                        <p class="text-sm text-pink-500">Remix and React Training</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                    Tellus mauris adipiscing dignissim sodales. Id dui venenatis mollis faucibus.
+                </p>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="bg-white shadow-md rounded-xl p-5 border">
+                <div class="flex items-center gap-3 mb-3">
+                <img src="images/woman-2.png" class="rounded-full w-17 h-17" />
+                    <div>
+                        <h3 class="font-semibold">Adison Westervelt</h3>
+                        <p class="text-sm text-pink-500">Senior Program Manager at Microsoft</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                    Hendrerit diam a, morbi tristique egestas commodo ullamcorper ut. Aenean
+                    ipsum tempus, felis nibh amet mollis id sem sit.
+                </p>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="bg-white shadow-md rounded-xl p-5 border">
+                <div class="flex items-center gap-3 mb-3">
+                <img src="images/woman-3.png" class="rounded-full w-17 h-17" />
+                    <div>
+                        <h3 class="font-semibold">Marley Siphron</h3>
+                        <p class="text-sm text-pink-500">Jobs</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                    Habitant at augue eu accumsan tellus ultricies integer. Gravida elementum.
+                </p>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="bg-white shadow-md rounded-xl p-5 border">
+                <div class="flex items-center gap-3 mb-3">
+                <img src="images/man-2.png" class="rounded-full w-17 h-17" />
+                    <div>
+                        <h3 class="font-semibold">Marilyn Siphron</h3>
+                        <p class="text-sm text-pink-500">Remix and React Training</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                    Libero in egestas pellentesque purus, nullam. Consectetur commodo odio.
+                </p>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="bg-white shadow-md rounded-xl p-5 border">
+                <div class="flex items-center gap-3 mb-3">
+                <img src="images/man-3.png" class="rounded-full w-17 h-17" />
+                    <div>
+                        <h3 class="font-semibold">Adison Westervelt</h3>
+                        <p class="text-sm text-pink-500">Senior Program Manager at Microsoft</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                    Orci penatibus luctus felis in aliquam adipiscing. Vulputate condimentum.
+                </p>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="bg-white shadow-md rounded-xl p-5 border">
+                <div class="flex items-center gap-3 mb-3">
+                <img src="images/man-4.png" class="rounded-full w-17 h-17" />
+                    <div>
+                        <h3 class="font-semibold">Marley Siphron</h3>
+                        <p class="text-sm text-pink-500">Jobs</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-600">
+                    Vitae purus ipsum eget leo et sed facilisi nisl.
+                </p>
+            </div>
+
+            </div>
+
+            <!-- SECCIÓN FINAL -->
+            <div class="text-center mt-20">
+            <p class="text-lg mb-4">What are you waiting for?</p>
+
+            <button class="bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-white hover:text-black hover:border border-pink-500 transition duration-500">
+                Let’s start
+            </button>
+            </div>
+
+        </div>
+
+    </main>
     <!-- End -->
 
 </body>
